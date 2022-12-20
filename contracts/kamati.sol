@@ -78,3 +78,4 @@ contract Kamati is SafeERC20 {
         require(_name.length > 0, "A name must be specified.");
         members[msg.sender].isActive = true;
         members[msg.sender
+    }    
